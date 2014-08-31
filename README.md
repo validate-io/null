@@ -19,15 +19,17 @@ For use in the browser, use [browserify](https://github.com/substack/node-browse
 To use the module,
 
 ``` javascript
-var lib = require( 'validate.io-null' );
+var isNull = require( 'validate.io-null' );
+
+console.log( isNull( null ) );
+// Returns true
+
+console.log( isNull( undefined ) );
+// Returns false
 ```
 
 
 ## Examples
-
-``` javascript
-var lib = require( 'validate.io-null' );
-```
 
 To run the example code from the top-level application directory,
 
