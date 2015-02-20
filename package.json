@@ -27,7 +27,11 @@
     "validate",
     "validation",
     "validator",
-    "null"
+    "null",
+    "is",
+    "type",
+    "check",
+    "isnull"
   ],
   "bugs": {
     "url": "https://github.com/validate-io/null/issues"
