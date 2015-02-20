@@ -1,7 +1,9 @@
+'use strict';
+
 var isNull = require( './../lib' );
 
 console.log( isNull( null ) );
-// Returns true
+// returns true
 
 console.log( isNull( undefined ) );
-// Returns false
+// returns false
